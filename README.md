@@ -12,7 +12,8 @@
 
 ### 1.3 扩展阅读
 
-[git使用简易指南](http://www.bootcss.com/p/git-guide/)
+1. [git使用简易指南](http://www.bootcss.com/p/git-guide/)
+2. [Pro Git 简体中文版](http://iissnan.com/progit/)
 
 ## 二、GitHub Desktop
 
