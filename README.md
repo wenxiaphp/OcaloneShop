@@ -5,7 +5,7 @@
 下载并安装：https://git-scm.com/downloads
 扩展阅读：
 
-[git使用简易指南]http://www.bootcss.com/p/git-guide/
+[git使用简易指南](http://www.bootcss.com/p/git-guide/)
 
 ## GitHub Desktop
 
