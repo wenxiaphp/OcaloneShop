@@ -17,6 +17,6 @@
 
 ## 二、GitHub Desktop
 
-### 下载
+### 2.1 下载
 
 下载地址：https://desktop.github.com/
