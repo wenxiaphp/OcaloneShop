@@ -6,6 +6,8 @@
 
 Git 是 [![Linus Torvalds](http://cdn.wakeuptocode.me/images/2017/10/linus-torvalds.jpg)](http://www.ruanyifeng.com/blog/2012/09/linus_torvalds.html) 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。
 
+下载地址：https://git-scm.com/downloads ，现在就开始你的Git之旅吧！！
+
 ## 二、Git配置
 
 ### 2.1 配置用户名和邮箱
@@ -106,3 +108,8 @@ Changes to be committed: # 一些更改可以提交
 On branch master #当前分支：master
 nothing to commit, working tree clean # 暂存区没有文件、工作区的文件也没有被修改
 ```
+
+### 扩展阅读
+
+1. [git使用简易指南](http://www.bootcss.com/p/git-guide/)
+2. [Pro Git 简体中文版](http://iissnan.com/progit/)
