@@ -1,4 +1,4 @@
-[Git入门指南](https://github.com/youngjuning/OcaloneShop/blob/master/README-Git.md)
+[Git入门指南](https://github.com/youngjuning/OcaloneShop/blob/master/git入门指南.md)
 
 ## 一、Git
 
