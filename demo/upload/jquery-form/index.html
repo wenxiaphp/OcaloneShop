@@ -7,7 +7,12 @@
 </head>
 
 <body>
-  <form id="upForm" enctype="multipart/form-data">
+  <form id="upForm">
+    <label for="dir">文件夹</label>
+    <select id="dir" name="dir">
+      <option value="images">images</option>
+      <option value="upload_folder">upload_folder</option>
+    </select>
     <input id="file" type="file" name="file" accept="image/*"/>
     <input id="submit" type="submit" name="submit" value="提交"><br>
     <p id="output"></p>
