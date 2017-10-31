@@ -1,3 +1,11 @@
+---
+layout: post
+title: 跨域资源共享
+date: '2017-10-31 17:26'
+categories:
+  - Git
+---
+
 ## [1.GitHub DeskTop](https://desktop.github.com/)
 
 ![github-desktop-screenshot-windows](http://cdn.wakeuptocode.me/images/2017/10/github-desktop-screenshot-windows.png)
