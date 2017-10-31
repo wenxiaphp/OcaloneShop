@@ -1,7 +1,10 @@
-1. GitHub DeskTop：https://desktop.github.com/
-2. sourcetrade
+## [1.GitHub DeskTop](https://desktop.github.com/)
 
-Source Tree
+![github-desktop-screenshot-windows](http://cdn.wakeuptocode.me/images/2017/10/github-desktop-screenshot-windows.png)
+
+Extend your GitHub workflow beyond your browser with GitHub Desktop, completely redesigned with Electron. Get a unified cross-platform experience that’s completely open source and ready to customize.
+
+## [2.Source Tree](https://www.sourcetreeapp.com/)
 SourceTree是老牌的Git GUI管理工具了，也号称是最好用的Git GUI工具。我的体验是确实强大，功能丰富，基本操作和高级操作都设计得非常流畅，适合初学者上手。
 
 
