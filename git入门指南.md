@@ -38,12 +38,12 @@ $ git config --global user.email "youngjuning@aliyun.com"
 
 ![gitflow](http://cdn.wakeuptocode.me/images/2017/10/gitflow.jpg)
 
-1.git init
+#### 1.git init
 
 初始化成功后，如果工作空间为空，执行 `git status`：
 ![no-commits-yet](http://cdn.wakeuptocode.me/images/2017/10/no-commits-yet.png)
 
-翻译：
+**翻译：**
 
 ```bash
 On branch master #当前分支：master
@@ -56,13 +56,13 @@ nothing to commit(create/copy files and use "git add" to track)
 
 > track：vt.跟踪；监测
 
-2.echo readme > README.md
+#### 2.echo readme > README.md
 
 这个命令在 CMD 命令行是不能运行的，请使用 Git Bash，它的意思是新建一个文件 `README.md` 并写入字符串 `readme`，执行 `git status`：
 
 ![Untracked files](http://cdn.wakeuptocode.me/images/2017/10/Untracked-files.png)
 
-翻译：
+**翻译：**
 
 ```bash
 On branch master #当前分支：master
@@ -77,13 +77,13 @@ nothing to commit(create/copy files and use "git add" to track)
 # 没有东西可以被提交（创建或复制一些文件并且把它们添加到暂存区）
 ```
 
-3.git add .
+#### 3.git add .
 
 `git add .` 表示添加所有没有被跟踪的文件到暂存区中，你也可以使用 `git add <files>` 提交指定的文件，我们来执行 `git status`：
 
 ![changes-to-be-committed](../../../../qiniu/images/2017/10/changes-to-be-committed.png)
 
-翻译：
+**翻译：**
 
 ```bash
 On branch master #当前分支：master
@@ -96,13 +96,13 @@ Changes to be committed: # 一些更改可以提交
   # green[.....]：暂存区中的文件列表
 ```
 
-4. git commit -m "测试提交" --all
+#### 4. git commit -m "测试提交" --all
 
 这个命令表示提交所有暂存的文件到本地仓库中并写message：`-m` 是添加注释的参数， `--all` 是表示提交所有的暂存区中文件，我们使用 `git status` 来查看当前状态：
 
 ![woking-tree-clean](http://cdn.wakeuptocode.me/images/2017/10/woking-tree-clean.png)
 
-翻译：
+**翻译：**
 
 ```bash
 On branch master #当前分支：master
