@@ -1,3 +1,5 @@
+[Git入门指南](https://github.com/youngjuning/OcaloneShop/blob/master/README-Git.md)
+
 ## 一、Git
 
 ### 1.1 下载
@@ -22,7 +24,3 @@
 下载地址：https://desktop.github.com/
 
 ## 三、GitHub
-
-### Fork
-
-###我要把我的文件放在什么地方
