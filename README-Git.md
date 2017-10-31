@@ -1,4 +1,4 @@
-[READE](https://github.com/youngjuning/OcaloneShop/blob/master/README.md)
+[README](https://github.com/youngjuning/OcaloneShop/blob/master/README.md)
 
 # git入门指南
 
