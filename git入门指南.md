@@ -109,7 +109,78 @@ On branch master #当前分支：master
 nothing to commit, working tree clean # 暂存区没有文件、工作区的文件也没有被修改
 ```
 
+### feature分支相关命令
+
+| 命令                             | 解释                                                             |
+| -------------------------------- | ---------------------------------------------------------------- |
+| git branch                       | 列出本地已经存在的分支，并且在当前分支的前面加“*”号标记        |
+| git branch -r                    | 列出远程分支                                                     |
+| git branch -a                    | 列出本地分支和远程分支                                           |
+| git branch [feature]             | 创建一个新的本地分支，需要注意，此处只是创建分支，不进行分支切换 |
+| git branch -m  featureA featureB | 重命名分支，如果featureB名字分支已经存在，则需要使用-m强制重命名 |
+| git branch -d featureA           | 删除featureA分支                                                 |
+| git branch -d -r featureA        | 删除远程featureA分支                                             |
+| git checkout featureA            | 切换到分支 featureA                                              |
+| git checkout -b featureA         | 创建并切换分支                                                   |
+| git merge featureA               | 合并featureA到当前分支                                           |
+
+## 四、[git远程操作](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
+
+### 4.1 git remote
+
+#### git remote不带参数
+
+列出已经存在的远程分支
+
+#### git remote -v | --verbose
+
+列出详细信息，在每一个名字后面列出其远程url
+
+#### git remote add origin
+
+添加远程GitHub,origin是默然的，管它呢。
+
+```bash
+$ git remote add origin git@github.com:yourname/yourgit.git
+```
+
+这个东西其实就在 `.git\config` 中，你可以进去看看。
+
+### 4.2 git push
+
+```
+$ git push -u origin master //将本地的master分支推送到origin主机，同时指定origin为默认主机
+$ git push origin gh-pages
+```
+
+### 4.3 git fetch
+
+命令用于从另一个存储库下载对象和引用：
+
+```bash
+$ git fetch <远程主机名> <分支名>
+```
+
+```bash
+$ git fetch origin master
+```
+
+### 4.4 git pull
+
+```bash
+$ git pull <远程主机名> <远程分支名>:<本地分支名>
+```
+
+### 4.5 git clone
+
+```bash
+$ git clone <版本库的网址>
+```
+
 ### 扩展阅读
 
 1. [git使用简易指南](http://www.bootcss.com/p/git-guide/)
 2. [Pro Git 简体中文版](http://iissnan.com/progit/)
+3. [Git教程|菜鸟教程](http://www.runoob.com/git/git-tutorial.html)
+4. [Git教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/)
+5. [Git -Documentation](https://git-scm.com/doc)
