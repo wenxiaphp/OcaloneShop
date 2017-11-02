@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>amazonMenu</title>
+  <script src="../../lib/jquery.js" charset="utf-8"></script>
+  <script src="../../lib/jquery.menu-aim.js" charset="utf-8"></script>
+  <style>
+    body {
+      font-family: 微软雅黑;
+      font-size: 16px;
+    }
+
+    .menuBtn {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 80px;
+      padding-left: 20px;
+      height: 20px;
+      line-height: 20px;
+      color: white;
+      background-color: black;
+    }
+
+    .menuTips {
+      position: absolute;
+      top: 10px;
+      left: 110px;
+      width: 380px;
+    }
+
+    .menuMain {
+      position: absolute;
+      top: 30px;
+      left: 10px;
+      width: 200px;
+      background-color: white;
+      border: solid 1px gray;
+      border-top: solid 2px black;
+
+    }
+
+    .menuUl {
+      list-style-type: none;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .menuLi {
+      padding: 3px;
+      height: 20px;
+      line-height: 20px;
+      cursor: default;
+    }
+
+    .menuLi:hover {
+      color: #ab36c9;
+      font-weight: bolder;
+    }
+
+    .menuSub {
+      position: absolute;
+      top: 30px;
+      left: 210px;
+      width: 190px;
+      padding-left: 10px;
+      background-color: white;
+      border: solid 1px gray;
+      border-top: solid 2px black;
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <span id="menuBtn" class="menuBtn">菜单</span>
+  <span id="menuTips" class="menuTips"></span>
+  <div id="menuMain" class="menuMain">
+    <ul id="menuUl" class="menuUl">
+      <li class="menuLi" id="menuLi_1">11</li>
+      <li class="menuLi" id="menuLi_2">22</li>
+      <li class="menuLi" id="menuLi_3">33</li>
+      <li class="menuLi" id="menuLi_4">44</li>
+      <li class="menuLi" id="menuLi_5">55</li>
+      <li class="menuLi" id="menuLi_6">66</li>
+    </ul>
+  </div>
+  <div id="menuSub_1" class="menuSub">
+    11
+  </div>
+  <div id="menuSub_2" class="menuSub">
+    22
+  </div>
+  <div id="menuSub_3" class="menuSub">
+    33
+  </div>
+  <div id="menuSub_4" class="menuSub">
+    44
+  </div>
+  <div id="menuSub_5" class="menuSub">
+    55
+  </div>
+  <div id="menuSub_6" class="menuSub">
+    66
+  </div>
+  <script src="./menu-aim.js" charset="utf-8"></script>
+</body>
+
+</html>

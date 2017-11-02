@@ -26,11 +26,11 @@ gulp.task('htmlmin',function () {
 
 // pug编译
 gulp.task('pug',function(){
-  gulp.src('./template/index.pug')
+  gulp.src('./template/pug.pug')
     .pipe(pug({
       pretty:true
     }))
-    .pipe(gulp.dest('./')); // dest:destination
+    .pipe(gulp.dest('./template')); // dest:destination
 });
 
 //编译Less
@@ -57,6 +57,6 @@ gulp.task('less', function () {
 });
 
 gulp.task('default', function() {
-  gulp.watch(['./template/index.pug'],['pug']);
+  gulp.watch(['./template/*.pug'],['pug']);
   gulp.watch(['./assets/less/*.less'],['less']);
 });

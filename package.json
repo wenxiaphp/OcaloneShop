@@ -31,5 +31,6 @@
   "bugs": {
     "url": "https://github.com/youngjuning/OcaloneShop/issues"
   },
-  "homepage": "https://github.com/youngjuning/OcaloneShop#readme"
+  "homepage": "https://github.com/youngjuning/OcaloneShop#readme",
+  "devDependencies": {}
 }
