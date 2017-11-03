@@ -1,1 +1,3 @@
 database.php
+*.stackdump
+node_modules/*

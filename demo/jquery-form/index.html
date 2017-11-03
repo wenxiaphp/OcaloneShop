@@ -1,34 +1,27 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <script src="./jquery.js"></script>
-  <script src="./jquery.form.min.js"></script>
-  <style media="screen">
-    #output{
-      display: none;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>ajax表单处理</title>
+  <link rel="stylesheet" href="../../../assets/css/base.css">
+  <script src="../../../lib/jquery.js"></script>
+  <script src="../../../lib/jquery.form.min.js"></script>
 </head>
+
 <body>
-  <script>
-    $(function () {
-      $('#myForm').ajaxForm(function() {
-          $('#output').html("提交成功！欢迎下次再来！").show();
-      });
-    });
-  </script>
-  <form id="myForm">
-    <label for="username">用户名：</label>
-    <input id="username" type="text" name="username" /><br>
-
-    <label for="address">地址：</label>
-    <input id="address" type="text" name="address" /><br>
-
+  <form id="upForm">
+    <label for="dir">文件夹</label>
+    <select id="dir" name="dir">
+      <option value="images">images</option>
+      <option value="upload_folder">upload_folder</option>
+    </select>
+    <input id="file" type="file" name="file" accept="image/*"/>
     <input id="submit" type="submit" name="submit" value="提交"><br>
-
-    <div id="output"></div>
+    <p id="output"></p>
   </form>
+  <script src="./main.js"></script>
+
 </body>
+
 </html>

@@ -1,0 +1,36 @@
+{
+  "name": "ocaloneshop",
+  "version": "1.0.0",
+  "description": "云上商店",
+  "main": "gulpfile.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-less": "^3.3.2",
+    "gulp-pug": "^3.3.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "less-plugin-autoprefix": "^1.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngjuning/OcaloneShop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youngjuning/OcaloneShop/issues"
+  },
+  "homepage": "https://github.com/youngjuning/OcaloneShop#readme",
+  "devDependencies": {}
+}
