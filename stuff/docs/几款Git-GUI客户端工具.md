@@ -72,16 +72,18 @@ Visual Studio 作为全宇宙最强IDE的名声已经在外（也许吧），自
 
 分支和历史记录视图
 
-![git-vs02](../../qiniu/images/2017/10/git-vs02.png)
+![git-vs02](http://cdn.wakeuptocode.me/images/2017/10/git-vs02.png)
 
 CodeLens 集成，可以直接在方法级别上查看git历史
 
-![git-vs03](../../qiniu/images/2017/10/git-vs03.png)
+![git-vs03](http://cdn.wakeuptocode.me/images/2017/10/git-vs03.png)
 
 ## [Visual Studio Code](https://code.visualstudio.com/)
 
 严格来说，Vscode不能算是IDE，只能算上代码编辑器而已，但是随着vscode上面插件的增加以及对于debugging的良好支持，vscode已经狠接近IDE的使用体验了。另外，vscode可以支持Windows, Mac和Linux操作系统，所以对于不同环境的开发人员来说都非常实用。
 
-![git-vscode](../../qiniu/images/2017/10/git-vscode.jpg)
+![git-vscode](http://cdn.wakeuptocode.me/images/2017/10/git-vscode.jpg)
 
 总的来说，我最喜欢的是Source Tree 和 VS里面的Git支持，主要原因还是用的多，顺手。其实工具的选择更多的是个人喜好，再难用的工具，只要基本功能满足，天天用，用惯了也不会愿意更换其他的工具。以上的只是一点个人体验，希望对于刚入行的新程序员或者开始接触git的朋友们能够有些帮助。
+
+> 参考：http://www.cnblogs.com/ups216/p/5603199.html
